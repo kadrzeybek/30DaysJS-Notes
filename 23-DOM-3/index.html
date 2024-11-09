@@ -3,14 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>DOM-3</title>
 </head>
 <body>
+    <input type="text" id="name" placeholder="Name">
+    <input type="color" id="color-pick">
+    <button id="save-btn">Save</button>
+
+    <select  id="gender">
+        <option value="select">Select</option>
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+    </select>
+
     <button id="btn">Button-1</button>
     <button id="btn-2" onclick="button2()">Button-2</button>
     <button id="btn-3">Button-3</button>
+    <button id="btn-4">Button-4</button>
+    <button id="btn-5">Button-5</button>
+    <button id="btn-6">Button-6</button>
 
-
+    <div>
+        <label>
+            <input type="checkbox" name="stack" id="save-rule">
+            A
+        </label>
+        <label>
+            <input type="checkbox" name="stack" id="save-rule">
+            B
+        </label>
+    </div>
+    
     <script src="./app.js"></script>
 </body>
 </html>
